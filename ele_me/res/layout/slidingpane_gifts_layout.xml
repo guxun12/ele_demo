@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/gift_head"
+        layout="@layout/common_above_title" />
+
+    <TextView
+        android:id="@+id/slidingpane_gift"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="礼品中心"
+        android:layout_below="@id/gift_head"
+        android:textSize="40sp" />
+
+</RelativeLayout>

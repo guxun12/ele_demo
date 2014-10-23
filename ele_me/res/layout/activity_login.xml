@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/restaurant_head"
+        layout="@layout/common_above_title" />
+
+
+    <include
+        android:id="@+id/restaurant_bottom"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/login_main" />
+
+</LinearLayout>

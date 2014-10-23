@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="foods">
+        
+        <item>5,6,7元美食专区-田园汉堡</item>
+        <item>5,6,7元美食专区-新奥尔良烤翅</item>
+        <item>5,6,7元美食专区-薯条小</item>
+        <item>5,6,7元美食专区-脆皮鸡10条</item>
+        <item>5,6,7元美食专区-鸡米花</item>
+        <item>5,6,7元美食专区-上校鸡块</item>
+        <item>5,6,7元美食专区-鲅鱼圈</item>
+        
+        <item>饮品畅饮系列-奇异果汁</item>
+        <item>饮品畅饮系列-酸梅汤</item>
+        <item>饮品畅饮系列-原味奶茶</item>
+        <item>饮品畅饮系列-奇异柠檬</item>
+        <item>饮品畅饮系列-金桔柠檬</item>
+        <item>饮品畅饮系列-韩式柚子茶</item>
+        <item>饮品畅饮系列-港式奶茶</item>
+        <item>饮品畅饮系列-蓝莓公主</item>
+        <item>饮品畅饮系列-柠檬红茶</item>
+        <item>饮品畅饮系列-草莓奶茶</item>
+        <item>饮品畅饮系列-木瓜奶茶</item>
+        
+        <item>汉堡系列-单层牛肉堡</item>
+        <item>汉堡系列-巨无霸牛肉堡</item>
+        <item>汉堡系列-双层牛肉煲</item>
+        <item>汉堡系列-雪域汉堡</item>
+        <item>汉堡系列-指针鲜虾堡</item>
+        <item>汉堡系列-奥尔良汉堡</item>
+        <item>汉堡系列-双层鸡腿堡</item>
+        <item>汉堡系列-招牌鸡腿汉堡</item>
+        
+        <item>套餐系列-(牛头汉堡+脆脆鸡+港式红豆奶茶)</item>
+        <item>套餐系列-(招牌鸡腿堡+大鸡排+蓝莓公主)</item>
+        <item>套餐系列-(墨西哥鸡肉卷+大鸡排+蓝玫公主)</item>
+         
+        <item>天天半价-红豆奶茶</item>
+        <item>天天半价-芒果汁</item>
+        <item>天天半价-新疆鸡柳</item>
+        <item>天天半价-大薯条</item>
+        
+    </string-array>
+</resources>

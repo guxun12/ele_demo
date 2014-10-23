@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4.0dip"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@id/restaurant_promotion_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:orientation="vertical"
+        android:textColor="@color/white"
+        android:textSize="11.0sp" />
+
+    <TextView
+        android:id="@id/restaurant_promotion_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:includeFontPadding="false"
+        android:orientation="vertical"
+        android:textColor="#ff9a9a9a"
+        android:textSize="12.0sp" />
+
+</LinearLayout>

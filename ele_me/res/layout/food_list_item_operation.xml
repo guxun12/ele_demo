@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/food_list_item_add_button_container"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:paddingRight="5.0dip" >
+
+    <FrameLayout
+        android:id="@id/food_list_item_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/food_list_item_add_view_container"
+        android:paddingLeft="15.0dip"
+        android:visibility="invisible"
+        android:paddingRight="10.0dip" >
+
+        <TextView
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_blue_corners_button"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="—"
+            android:textColor="@color/white"
+            android:textSize="16.0sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@id/food_list_item_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/food_list_item_add_view_container"
+        android:layout_marginTop="5.0dip"
+        android:layout_toRightOf="@id/food_list_item_minus"
+        android:background="@drawable/foodlist_bg_foodnum"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:paddingBottom="1.0dip"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="14.0sp" />
+
+    <LinearLayout
+        android:id="@id/food_list_item_add_view_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@id/food_list_item_size"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@id/food_list_item_add_view"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip" >
+
+            <TextView
+                android:id="@id/food_list_item_price_text_view"
+                android:layout_width="70.0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_blue_corners_button"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:text="￥7"
+                android:textColor="@color/white"
+                android:textSize="16.0sp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@id/origin_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:includeFontPadding="false"
+            android:textColor="@color/color_6"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:id="@id/promotion_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:background="@color/blue"
+            android:includeFontPadding="false"
+            android:maxWidth="70.0dip"
+            android:textColor="@color/white"
+            android:textSize="11.0sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/back_title" >
+
+    <LinearLayout
+        android:id="@+id/linear_above_toHome"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/back_above_menushow_style"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_head_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_above_more" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/m_drawer_icon_home_selected" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageview_above_more"
+        style="@style/title_right_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/abc_ic_search" />
+    <TextView
+         android:id="@+id/tv_common_above_head"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside"
+        android:text="沈阳建筑大学商业街"
+        android:background="@drawable/abc_spinner_ab_default_holo_light"
+        android:gravity="center"
+        android:textColor="#fff" />
+
+</RelativeLayout>

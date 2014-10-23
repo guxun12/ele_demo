@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_restaurant_list_item" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@id/restaurant_list_item_logo"
+            android:layout_width="@dimen/restaurant_icon_size"
+            android:layout_height="@dimen/restaurant_icon_size"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginTop="12.0dip"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:paddingBottom="4.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="12.0dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@id/restaurant_list_item_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:textColor="#ff494c5b"
+                    android:textSize="17.0sp" />
+
+                <LinearLayout
+                    android:id="@id/restaurant_list_item_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="9.0dip" />
+
+                <ImageView
+                    android:id="@id/restaurant_list_item_favor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitStart"
+                    android:visibility="gone"
+                    android:src="@drawable/food_list_favor" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.0dip"
+                android:paddingRight="10.0dip" >
+
+                <ImageView
+                    android:id="@id/restaurant_list_item_avaiable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_rest"
+                    android:paddingLeft="5.0dip"
+                    android:visibility="gone"
+                    android:paddingRight="5.0dip" />
+
+                <RatingBar
+                    android:id="@id/restaurant_list_item_rate"
+                    style="@style/RatingBar.Grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.5" />
+
+                <TextView
+                    android:id="@id/restaurant_list_item_rate_numbers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_toRightOf="@id/restaurant_list_item_rate"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/gray_txt"
+                    android:textSize="12.0sp" />
+
+                <TextView
+                    android:id="@id/restaurant_list_item_buynums"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/foodlist_bg_foodnum"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:paddingBottom="1.0dip"
+                    android:paddingLeft="5.0dip"
+                    android:paddingRight="5.0dip"
+                    android:textColor="@color/white"
+                    android:textSize="14.0sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@id/restaurant_list_item_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="#ff999999"
+                android:textSize="12.0sp" />
+
+            <LinearLayout
+                android:id="@id/restaurant_list_item_promotion_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:layout_marginTop="4.0dip"
+                android:orientation="vertical" >
+
+                <com.example.ele_me.util.DashedLineView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dip" />
+
+                <LinearLayout
+                    android:id="@id/restaurant_list_item_present_promotion_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <LinearLayout
+                    android:id="@id/restaurant_list_item_more_promotion_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+                
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/restaurant_list_item_mask"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/restaurant_list_item_disable"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/text_field" />
+    <item android:drawable="@color/white" android:left="1.0px" android:top="1.0px" android:right="1.0px" android:bottom="0.0dip" />
+</layer-list>

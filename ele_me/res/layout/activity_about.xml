@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/id_about_us"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_bg"
+    android:padding="@dimen/content_margin" >
+
+    <RelativeLayout
+        android:id="@id/id_version"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/selector_text_field" >
+
+        <ImageView
+            android:id="@id/check_new_version_icon"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/content_padding"
+            android:background="@drawable/m_about_icon_refresh" />
+
+        <TextView
+            android:id="@id/id_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/check_new_version_icon"
+            android:gravity="left"
+            android:includeFontPadding="false"
+            android:paddingLeft="9.0dip"
+            android:text="检测更新"
+            android:textColor="@color/black"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:id="@id/new_version_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:layout_toRightOf="@id/id_update"
+            android:background="@drawable/m_drawer_updates_bg"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@id/version_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14.0dip"
+            android:layout_toRightOf="@id/new_version_icon"
+            android:gravity="right"
+            android:textColor="@color/black"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/id_makeProposal"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_below="@id/id_version"
+        android:layout_marginTop="@dimen/content_margin"
+        android:background="@drawable/selector_text_field"
+        android:drawableLeft="@drawable/m_about_icon_proposal"
+        android:drawablePadding="9.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/content_padding"
+        android:text="提建议"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@id/id_shareTofriends"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_below="@id/id_makeProposal"
+        android:layout_marginTop="5.0dip"
+        android:background="@drawable/selector_text_field"
+        android:drawableLeft="@drawable/m_about_icon_share"
+        android:drawablePadding="9.0dip"
+        android:gravity="center_vertical"
+        android:padding="@dimen/content_padding"
+        android:text="分享给朋友"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@id/id_welcome"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/id_shareTofriends"
+        android:layout_marginTop="@dimen/content_margin"
+        android:background="@drawable/selector_text_field"
+        android:drawableLeft="@drawable/m_about_icon_welcome"
+        android:drawablePadding="9.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/content_padding"
+        android:text="欢迎页"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@id/agreement"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/id_welcome"
+        android:layout_marginTop="@dimen/content_margin"
+        android:background="@drawable/selector_text_field"
+        android:drawableLeft="@drawable/xieyi"
+        android:drawablePadding="9.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/content_padding"
+        android:text="使用条款和建议"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@id/id_offical_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/agreement"
+        android:layout_marginTop="@dimen/content_margin"
+        android:background="@drawable/selector_text_field"
+        android:drawableLeft="@drawable/m_about_icon_phone"
+        android:drawablePadding="9.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/content_padding"
+        android:text="客服电话: 4000-557117"
+        android:textColor="@color/black"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@id/id_about_firm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="上海拉扎斯信息科技有限公司\n@2014Rajax Network Technology Co., Ltd"
+        android:soundEffectsEnabled="false"
+        android:textColor="@color/gray_txt" />
+
+</RelativeLayout>

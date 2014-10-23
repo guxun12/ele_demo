@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/home_head"
+        layout="@layout/common_above_title" />
+
+    <com.example.ele_me.util.RefreshableListView
+        android:id="@+id/mineList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="1dip"
+        android:drawSelectorOnTop="false"
+        android:fadingEdgeLength="0.0sp"
+        android:layout_below="@id/home_head"
+        android:scrollbars="none" >
+    </com.example.ele_me.util.RefreshableListView>
+
+</RelativeLayout>

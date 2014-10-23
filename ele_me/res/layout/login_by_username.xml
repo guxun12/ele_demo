@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/content_margin" >
+
+    <com.example.ele_me.widget.ClearEditTextView
+        android:id="@id/login_name"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/cell_height"
+        android:layout_marginTop="5.0dip"
+        android:hint="用户名/邮箱"
+        android:singleLine="true"
+        android:textColor="#ff555555"
+        android:background="@drawable/text_field_without_top_border"
+        android:textColorHint="#ff888888"
+        android:textSize="16.0sp" />
+
+    <com.example.ele_me.widget.ClearEditTextView
+        android:id="@id/login_password"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/cell_height"
+        android:background="@drawable/text_field_without_top_border"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#ff555555"
+        android:textColorHint="#ff888888"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@id/login_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/cell_height"
+        android:layout_marginTop="15.0dip"
+        android:background="@drawable/selector_green_corners_button"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="@dimen/submit_text_size" />
+
+</LinearLayout>

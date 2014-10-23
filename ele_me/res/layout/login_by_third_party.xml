@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/one_px"
+            android:layout_weight="1.0"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:src="@color/color_d2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第三方登录"
+            android:textColor="@color/color_6"
+            android:textSize="14.0sp" />
+
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/one_px"
+            android:layout_weight="1.0"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:src="@color/color_d2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="20.0dip"
+        android:paddingTop="20.0dip" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@id/weixin_login"
+                android:layout_width="@dimen/third_icon_size"
+                android:layout_height="@dimen/third_icon_size"
+                android:background="@drawable/selector_weixin_green_button"
+                android:scaleType="centerInside"
+                android:src="@drawable/weixin_iner_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:text="微信"
+                android:textColor="@color/color_6"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@id/weibo_login"
+                android:layout_width="@dimen/third_icon_size"
+                android:layout_height="@dimen/third_icon_size"
+                android:background="@drawable/selector_weibo_red_button"
+                android:scaleType="centerInside"
+                android:src="@drawable/weibo_iner_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:text="微博"
+                android:textColor="@color/color_6"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@id/renren_login"
+                android:layout_width="@dimen/third_icon_size"
+                android:layout_height="@dimen/third_icon_size"
+                android:background="@drawable/selector_renren_blue_button"
+                android:scaleType="centerInside"
+                android:src="@drawable/renren_iner_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:text="人人"
+                android:textColor="@color/color_6"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

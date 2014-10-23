@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/restaurant_head"
+        layout="@layout/common_above_title" />
+
+    <com.example.ele_me.widget.stickylistheaders.StickyListHeadersListView
+        android:id="@+id/list_restaurant_detail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:clipToPadding="false"
+        android:drawSelectorOnTop="true"
+        android:fastScrollEnabled="true"
+        android:overScrollMode="never"
+        android:scrollbarStyle="outsideOverlay" >
+    </com.example.ele_me.widget.stickylistheaders.StickyListHeadersListView>
+
+    <include
+        android:id="@+id/restaurant_bottom"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/food_cart_item" />
+
+</LinearLayout>

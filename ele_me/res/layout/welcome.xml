@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff36a1e9"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:src="@drawable/welcome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全球首发 微信拼单"
+        android:textColor="@color/white"
+        android:textSize="23.0sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="微信群 多人订餐"
+        android:textColor="@color/white"
+        android:textSize="14.0sp" />
+
+    <TextView
+        android:id="@id/welcome_start_order"
+        android:layout_width="wrap_content"
+        android:layout_height="35.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/selector_red_corners_start_button"
+        android:gravity="center"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:text="开始订餐"
+        android:textColor="@color/white"
+        android:textSize="18.0sp" />
+
+</LinearLayout>
