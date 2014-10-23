@@ -13,3 +13,6 @@ ele_demo
 7.自带清除输入文字的EditTextView----ClearEditTextView
 8.可能是最好用的图片加载控件----universal-image-loader
 9.fragment，webview，selector等其他细节布局控件的使用
+==========
+ ![image](https://github.com/guxun12/file_temp/blob/master/ele_demo/homeShow.gif)
+ ![image](https://github.com/guxun12/file_temp/blob/master/ele_demo/restaurantShow.gif)
