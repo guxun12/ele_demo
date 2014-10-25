@@ -4,7 +4,7 @@ ele_demo
 仿【饿了么】订餐软件的一个demo
 ==========
  demo里包含的常用ui控件有
-1.带阻尼回弹效果----ScrollView
+1.带阻尼回弹效果----BounceScrollView
 
 2.下拉刷新----RefreshableListView
 
