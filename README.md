@@ -20,7 +20,9 @@ ele_demo
 
 8.可能是最好用的图片加载控件----universal-image-loader
 
-9.fragment，webview，selector等其他细节布局控件的使用
+9.圆形图片的处理
+
+10.fragment，webview，selector等其他细节布局控件的使用
 
 ==========
  ![image](https://github.com/guxun12/file_temp/blob/master/ele_demo/homeShow.gif)
