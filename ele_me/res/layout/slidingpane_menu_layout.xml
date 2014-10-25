@@ -23,9 +23,8 @@
 
             <ImageView
                 android:id="@+id/iv_login"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/hed_pic" />
+                android:layout_width="55dp"
+                android:layout_height="55dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
