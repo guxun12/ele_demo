@@ -1,14 +1,4 @@
-/**   
- * Copyright © 2014 All rights reserved.
- * 
- * @Title: SlidingPaneMenuFragment.java 
- * @Prject: SlidingPane
- * @Package: com.example.slidingpane 
- * @Description: TODO
- * @author: raot  719055805@qq.com
- * @date: 2014年9月5日 上午10:42:07 
- * @version: V1.0   
- */
+﻿
 package com.example.ele_me.fragment;
 
 import android.annotation.SuppressLint;

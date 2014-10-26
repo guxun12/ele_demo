@@ -1,4 +1,4 @@
-package com.example.ele_me.activity;
+﻿package com.example.ele_me.activity;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -21,9 +21,7 @@ import com.example.ele_me.util.InjectView;
 import com.example.ele_me.util.Injector;
 import com.example.ele_me.widget.stickylistheaders.StickyListHeadersListView;
 
-/**
- * @author Emil Sjölander
- */
+
 public class RestaurantDetailActivity extends Activity implements
 		AdapterView.OnItemClickListener,
 		StickyListHeadersListView.OnHeaderClickListener,
