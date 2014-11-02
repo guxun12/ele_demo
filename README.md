@@ -24,7 +24,7 @@ ele_demo
 
 10.简单的时间轴示例
 
-11.图片滤镜（开源项目https://github.com/CyberAgent/android-gpuimage）
+11.图片滤镜,基于开源项目https://github.com/CyberAgent/android-gpuimage 需要引入它的Library
 
 12.常用存储类SharedPreferences----SharedPreferencesUtil
 
