@@ -24,7 +24,7 @@ public class MenuFragment extends Fragment implements View.OnClickListener {
 
 	private View currentView;
 	private ImageView iv_login;
-	private Button bt_abouts, bt_gift, bt_home, bt_invitation, bt_orders, bt6;
+	private Button bt_abouts, bt_gift, bt_home, bt_invitation, bt_orders, bt_camera;
 	private Drawable head_iocn;
 
 	public View getCurrentView() {
@@ -42,6 +42,7 @@ public class MenuFragment extends Fragment implements View.OnClickListener {
 		bt_home = (Button) currentView.findViewById(R.id.btn_home);
 		bt_invitation = (Button) currentView.findViewById(R.id.btn_invitation);
 		iv_login = (ImageView) currentView.findViewById(R.id.iv_login);
+		bt_camera = (Button) currentView.findViewById(R.id.btn_camera);
 		initRoundImage();
 		bt_orders = (Button) currentView.findViewById(R.id.btn_order);
 		bt_abouts.setOnClickListener(this);
@@ -50,6 +51,7 @@ public class MenuFragment extends Fragment implements View.OnClickListener {
 		bt_invitation.setOnClickListener(this);
 		bt_orders.setOnClickListener(this);
 		iv_login.setOnClickListener(this);
+		bt_camera.setOnClickListener(this);
 		return currentView;
 	}
 
@@ -102,6 +104,12 @@ public class MenuFragment extends Fragment implements View.OnClickListener {
 			Intent intent = new Intent(getActivity(),
 					LoginActivity.class);
 			startActivity(intent);
+			break;
+		case R.id.btn_camera:
+			Fragment cameraFragment = new CameraFragment();
+			ft.replace(R.id.slidingpane_content, cameraFragment);
+			ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+			ft.commit();
 			break;
 		}
 		((HomePageActivity) getActivity()).getSlidingPaneLayout().closePane();

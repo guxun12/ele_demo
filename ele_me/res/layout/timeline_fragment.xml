@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/timeline"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14.0dip"
+        android:layout_marginLeft="17.0dip"
+        android:layout_marginTop="14.0dip"
+        android:orientation="vertical"
+        android:text="送餐进度"
+        android:textColor="#ff555555"
+        android:textSize="20.0sp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10.0dip" >
+
+        <ImageView
+            android:id="@id/time_line_item_bg_line"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="50.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/timeline"/>
+
+        <ListView
+            android:id="@id/timeline_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:paddingLeft="30.0dip"
+            android:dividerHeight="30dp"
+            android:scrollbarStyle="outsideInset" />
+
+    </FrameLayout>
+
+</LinearLayout>

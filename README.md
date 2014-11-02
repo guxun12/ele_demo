@@ -12,7 +12,7 @@ ele_demo
 
 4.虚线----DashedLineView
 
-5.购物车常用的显示数量----BadgeView（有添加购物车的动画效果）
+5.购物车动画效果
 
 6.两列面板（menu和content）的切换 ----SlidingPaneLayout
 
@@ -22,6 +22,12 @@ ele_demo
 
 9.圆形图片的处理
 
+10.简单的时间轴示例
+
+11.图片滤镜（开源项目https://github.com/CyberAgent/android-gpuimage）
+
+12.常用存储类SharedPreferences----SharedPreferencesUtil
+
 10.fragment，webview，selector等其他细节布局控件的使用
 
 ==========
@@ -29,4 +35,4 @@ ele_demo
  ![image](https://github.com/guxun12/file_temp/blob/master/ele_demo/restaurantShow.gif)
  
 =
-后续会添加地图定位，图片滤镜等功能
+

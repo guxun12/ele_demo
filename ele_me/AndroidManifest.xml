@@ -40,6 +40,10 @@
         </activity>
         <activity android:name="com.example.ele_me.activity.LoginActivity" >
         </activity>
+        <activity android:name="com.example.ele_me.activity.CameraActivity" >
+        </activity>
+        <activity android:name="com.example.ele_me.activity.GalleryActivity" >
+        </activity>
     </application>
 
 </manifest>

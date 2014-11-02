@@ -2,6 +2,7 @@ package com.example.ele_me.activity;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.widget.SlidingPaneLayout;
 import android.view.View;
@@ -17,6 +18,7 @@ import android.widget.TextView;
 import com.example.ele_me.R;
 import com.example.ele_me.util.InjectView;
 import com.example.ele_me.util.Injector;
+import com.example.ele_me.util.SharedPreferencesUtil;
 
 public class LoginActivity extends Activity {
 	@InjectView(R.id.iv_head_left)
@@ -25,6 +27,9 @@ public class LoginActivity extends Activity {
 	private LinearLayout above_toHome;
 	@InjectView(R.id.tv_common_above_head)
 	private TextView above_tittle;
+	@InjectView(R.id.login_submit)
+	private TextView login;
+	private SharedPreferencesUtil SpUtil;
 
 	@SuppressLint("NewApi")
 	@Override
@@ -34,6 +39,7 @@ public class LoginActivity extends Activity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_login);
 		Injector.get(this).inject();// init views
+		SpUtil = new SharedPreferencesUtil(this,"SharedPreferences");
 		initView();
 		setListener();
 	}
@@ -42,6 +48,14 @@ public class LoginActivity extends Activity {
 		// TODO Auto-generated method stub
 		above_toHome.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
+				finish();
+				
+			}
+		});
+		login.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v) {
+				SpUtil.setValue("loginFlag", true);
 				finish();
 				
 			}
