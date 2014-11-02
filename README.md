@@ -24,9 +24,9 @@ ele_demo
 
 10.简单的时间轴示例
 
-11.图片滤镜,基于开源项目https://github.com/CyberAgent/android-gpuimage 需要引入它的Library
+11.图片滤镜,基于开源项目https://github.com/CyberAgent/android-gpuimage 需要引入它的GPUImagelibrary,否则报错
 
-12.常用存储类SharedPreferences----SharedPreferencesUtil
+12.常用存储类SharedPreferences----SharedPreferencesUtil（demo中记录登录状态）
 
 10.fragment，webview，selector等其他细节布局控件的使用
 
