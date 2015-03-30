@@ -24,7 +24,7 @@ ele_demo
 
 10.简单的时间轴示例
 
-11.图片滤镜,基于开源项目https://github.com/CyberAgent/android-gpuimage 需要引入它的GPUImagelibrary,否则报错
+11.图片滤镜,需要引入[开源项目gpuimage](https://github.com/CyberAgent/android-gpuimage)的library,具体添加方法是:eclipse中项目右键-properties-android-add
 
 12.常用存储类SharedPreferences----SharedPreferencesUtil（demo中记录登录状态）
 
